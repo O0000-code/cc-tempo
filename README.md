@@ -2,13 +2,7 @@
 
 > A Claude Code statusline that shows not just how much you've used, but how fast you're working.
 
-```
-49.7M tokens · $29.46 | Context: ████████████░░░░░░░░ 60% | Cached 85% · ⏱ 2h 15m [1.8×]
-───
-main · 2 active | +156 -23 · 12 files · 89 lines/$ | Quality: ▁▁▂▃▅▆▇█ ↑
-───
-Limits: 5h ▮▮▮▮▮▮▮▮▯▯ 87% · 7d ▮▮▮▮▮▮▮▯▯▯ 71% | ↻ 47m · 2d 3h
-```
+![cc-tempo](./screenshot.png)
 
 ## Why cc-tempo
 
