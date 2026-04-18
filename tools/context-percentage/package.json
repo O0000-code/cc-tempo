@@ -1,0 +1,36 @@
+{
+  "name": "claude-context-percentage",
+  "version": "1.0.0",
+  "description": "Context percentage calculator used by cc-tempo Claude Code StatusLine",
+  "main": "dist/index.js",
+  "bin": {
+    "claude-context-percentage": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "statusline",
+    "context-percentage",
+    "cc-tempo"
+  ],
+  "author": "O0000-code",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/O0000-code/cc-tempo.git",
+    "directory": "tools/context-percentage"
+  },
+  "bugs": {
+    "url": "https://github.com/O0000-code/cc-tempo/issues"
+  },
+  "homepage": "https://github.com/O0000-code/cc-tempo",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
