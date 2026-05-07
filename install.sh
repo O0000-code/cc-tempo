@@ -42,14 +42,13 @@ Add the following to ~/.claude/settings.json (merge with any existing keys):
   {
     "statusLine": {
       "type": "command",
-      "command": "bash $CLAUDE_DIR/statusline.sh",
-      "padding": 2
+      "command": "bash $CLAUDE_DIR/statusline.sh"
     }
   }
 
 Or merge automatically with jq:
 
-  jq '.statusLine = {"type":"command","command":"bash $CLAUDE_DIR/statusline.sh","padding":2}' \\
+  jq '.statusLine = {"type":"command","command":"bash $CLAUDE_DIR/statusline.sh"}' \\
      ~/.claude/settings.json > /tmp/settings.json && mv /tmp/settings.json ~/.claude/settings.json
 
 Restart Claude Code to activate the status line.

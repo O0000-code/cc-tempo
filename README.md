@@ -38,8 +38,7 @@ Add to `~/.claude/settings.json`, then restart Claude Code:
 {
   "statusLine": {
     "type": "command",
-    "command": "bash ~/.claude/statusline.sh",
-    "padding": 2
+    "command": "bash ~/.claude/statusline.sh"
   }
 }
 ```
